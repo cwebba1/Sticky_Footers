@@ -14,3 +14,8 @@ Sticky_Footer_WP_Wrapper_Test_03.htm
 sticky-footer_04.html
 
 
+Here is a description of each prototype:
+
+
+
+
