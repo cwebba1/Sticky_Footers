@@ -103,21 +103,23 @@ header, .footer{height:1px}
 <main>
     <div class="container-fluid">
 <p>THIS IS CONTENT AREA</p>
-<h4>BS 3.6.6 Drop-down Navigation Prototype 08</h4>
+<h4>BS 4 Drop-down Navigation Prototype 08</h4>
 <div id="horizontalTab">
 <ul>
 <li><a href="#tab-1">Iteration</a></li>
 <li><a href="#tab-2">Status</a></li>
-<li><a href="#tab-3">Next Steps</a></li>
+<li><a href="#tab-3">Features</a></li>
+<li><a href="#tab-4">Next Steps</a></li>
 </ul>
 <div id="tab-1">
-  <h2>Bootstrap 3.3.6 CDN Drop-down Navigation</h2>
-      <p>This is the BS Drop-down Navigation using Bootstrap 3.3.6 CDN.</p>
-      <p>This: BS3.6.6_Drop-nav_prototype_07.html 070116</p>
+  <h2>Bootstrap 4 Drop-down Navigation (cwebba_bootstrap_0503b2.css)</h2>
+      <p>This is the BS Drop-down Navigation using Bootstrap 4.</p>
+      <p>This: BS4_Drop-nav_prototype_08.html 070316</p>
 
 <h5>Styles:</h5>
-<p>css/style_sans_BS-0503b2b.css 070116<br>
+<p>css/style_0703_v8.css 070316<br>
 css/bs-3_nav.css 070116<br>
+sisiharmoni_bs04_070416.css 070416<br>
 css/responsive-tabs.css 063016<br>
 + In-HTML Styles from paulobrien/pen/FKAxH (These control the sticky-footer)<br>
 </p>
@@ -125,19 +127,30 @@ css/responsive-tabs.css 063016<br>
 
 <div id="tab-2">
   <h2>Document Status and Features</h2>
-      <p>This iteration is housed in the Silver Fox folder and has the Silver Fox styles active, minus BS4 cwebba_bootstrap_0503b2. The CSS stylesheet name is style_sans_BS-0503b2.css, 070116. BS03 Drop-down navigation styles from Pegasus are in bs-3_nav.css and need to be assimilated into sisiharmoni-bs04 SASS to become sisiharmoni-bs03 SASS, with SilverFox styles. Styles to control the Silver Fox Logo in bs-3_nav.css have been removed.
-      </p>
-      <p>Responsive-tabs has been added to aid with testing sticky footer on iPhone.</p>
-      <p>The sticky-footer in this iteration is the Wrapper_Test_03.htm example house in the CWebba07 folder. Titled "Ultimate Sticky footer IE8+ (no hacks)", the prototype is based on <a href="http://codepen.io/paulobrien/pen/FKAxH">codepen.io/paulobrien/pen/FKAxH</a>.
-      </p>
-      <p>During testing it was found that the .topmast declaration, "display:table;", in style_sans_BS-0503b.css conflicted with the sticky-footer. Changing it to "diplay:table-cell;" fixed the problem. The style sheet style_sans_BS-0503b2.css has a .topmast declaration, "display:table-cell;". 
-      </p>
-      <p>It is possible that the flex-based sticky-footer option suffered from the same flaw.
-      </p>
-      <p>BS03 Drop-down navigation styles (070116) was modified. The .navbar-header {} declaration is modified. New .in-head and .flex-vessel declarations were added to style_sans_BS-0503b2.css, 070116, and inner elemeents associated media query and declaration are modified. The backgroud image is contained in a wrapper ".in-head" div. A third wrapper is set to flexbox @768px/</p>
+<p>This iteration is housed in the Silver Fox folder. Prototype 08 was built after prototype 09, after deciding to continue using BS4.</p>
+<p>This iteration utilizes BS4 styles added using cwebba_bootstrap_0503b2.css.</p>
+<p>The CSS stylesheet name is style_0703_v8.css 070316.</p>
+<p>Select Drop-down navigation styles from Pegasus, which used BS03, are in bs-3_nav.css.</p>
+<p>Final drop-down  styles are provided by sisiharmoni_bs04_070416.css</p>
+
+<p>These styles will need to be assimilated into sisiharmoni-bs05 SASS, with SilverFox styles. Styles to control the Logo in bs-3_nav.css have been removed.</p>
+<p>Responsive-tabs has been added to aid with testing sticky footer on iPhone.</p>
+
+<p>The prototype is based on <a href="http://codepen.io/paulobrien/pen/FKAxH">http://codepen.io/paulobrien/pen/FKAxH</a>, titled "Ultimate Sticky footer IE8+ (no hacks)".</p>
+
+<p>During testing it was found that the .topmast declaration, "display:table;", in style_sans_BS-0503b.css conflicted with the sticky-footer. Changing it to "display:table-cell;" fixed the problem. The declaration is removed in style sheet style_0703_v8.css. The header has a "display:table-cell;" declaration in the HTML styles.</p>
+
+<p>BS03 Drop-down navigation styles (070116) was modified. The .navbar-header {} declaration is modified. New .in-head and .flex-vessel declarations were added to style_sans_BS-0503b2.css, 070116, and inner elemeents associated media query and declaration are modified. The backgroud image is contained in a wrapper ".in-head" div. A third wrapper is set to flexbox @768px.</p>
+</div>
+<div id="tab-3">
+  <h2>Features</h2>
+<p>Sticky Footer using Tables</p>
+<p>BS4 drop-down navigation modified to push content down on mobile media</p>
+<p>Header inner-wrapper with background image</p>
+<p>inner flexbox section to distribute header elements</p>
 </div>
 
-<div id="tab-3">
+<div id="tab-4">
   <h2>Next Steps</h2>
       <p><!-- You can't have a list inside of this accordiaon. duh. -->
 <span>&bull;&nbsp;Added Accordion Tabs to Assist with testing</span><br>
@@ -146,15 +159,15 @@ css/responsive-tabs.css 063016<br>
 <span>&bull;&nbsp;Add modal to test whether sticky footers sticks</span><br>
 <span>&bull;&nbsp;Test in iPhone, iterate - DONE</span><br>
 <span>&bull;&nbsp;Added Flexbox wrapper to control header inner elements.</span><br>
-<span>&bull;&nbsp;Test in iPhone, iterate</span><br>
+<span>&bull;&nbsp;Test in iPhone, iterate - DONE</span><br>
 <span>&bull;&nbsp;Assimilate other styles and elements to become Silver Fox header</span><br>
-<span>&bull;&nbsp;Merge BS3 styles into sisiharmoni-bs04 SASS to become sisiharmoni-bs03 SASS</span><br>
+<span>&bull;&nbsp;Merge BS3 styles into sisiharmoni-bs04 SASS</span><br>
 </p>
   </div><!-- END Accordion Tabs -->
 
 </div><!-- END container-fluid -->
   </main>
-<footer class="footer pink">
+<footer class="footer">
     <div class="copyblock">
       <p>THIS IS THE FOOTER</p>
     </div>

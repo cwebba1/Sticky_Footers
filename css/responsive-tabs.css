@@ -1,0 +1,153 @@
+
+/*!  *   *   *   [ RESPONSIVE TABS STYLES ]   *   *   *   */
+
+#horizontalTab { 
+    font-size:1rem;
+margin-bottom:2em;
+}
+
+/* Wrapper */
+.r-tabs {
+position: relative;
+}
+
+/* Navigation Section */
+.r-tabs .r-tabs-nav {
+border-bottom: 1px solid #ccc;
+}
+
+/*  Tab space */
+.r-tabs .r-tabs-nav .r-tabs-tab {
+position: relative;
+top: 1px;
+}
+
+/* Tabs */
+.r-tabs .r-tabs-nav .r-tabs-anchor {
+display: inline-block;
+color: #fff;
+    letter-spacing: .07em;
+text-decoration: none;
+    background: hsla(34, 87%, 62%, 1);
+    background: -moz-linear-gradient(top, hsla(34, 87%, 62%, 1) 0%, hsla(24, 100%, 50%, 1) 100%);
+    background: -webkit-gradient(top top, right top, color-stop(0%, hsla(34, 87%, 62%, 1)), color-stop(100%, hsla(24, 100%, 50%, 1)));
+    background: -webkit-linear-gradient(top, hsla(34, 87%, 62%, 1) 0%, hsla(24, 100%, 50%, 1) 100%);
+    background: -o-linear-gradient(top, hsla(34, 87%, 62%, 1) 0%, hsla(24, 100%, 50%, 1) 100%);
+    background: -ms-linear-gradient(top, hsla(34, 87%, 62%, 1) 0%, hsla(24, 100%, 50%, 1) 100%);
+    background: linear-gradient(to bottom, hsla(34, 87%, 62%, 1) 0%, hsla(24, 100%, 50%, 1) 100%);
+    border-bottom: 1px solid #Fb9233;
+    border-radius: 0;
+padding: .875em 2em;
+margin-bottom: 1px;
+    border: 0;
+    -webkit-border-top-left-radius: 6px;
+    -moz-border-radius-top-left: 6px;
+    -webkit-border-top-right-radius: 6px;
+    -moz-border-radius-top-right: 6px;
+    border-radius: 6px 6px 0px 0px;
+}/* ROBIN'S-EGG BLUE #00aadd*/
+
+/* Active Tab */
+.r-tabs .r-tabs-nav .r-tabs-state-active {
+background-color: #fff;
+margin-bottom: -1px;
+border-top: 1px solid #ccc;
+border-right: 1px solid #ccc;
+border-left: 1px solid #ccc;
+    -webkit-border-top-left-radius: 6px;
+    -moz-border-radius-top-left: 6px;
+    -webkit-border-top-right-radius: 6px;
+    -moz-border-radius-top-right: 6px;
+    border-radius: 6px 6px 0px 0px;
+}
+
+.r-tabs .r-tabs-nav .r-tabs-state-active .r-tabs-anchor {
+font-weight: bold;
+color: hsla(24, 87%, 56%, 1);
+background-color: #FFFFFF;
+background-image: -ms-linear-gradient(top, #FFFFFF 0%, #FFFFFF 100%);/* IE10+ */ 
+background-image: -moz-linear-gradient(top, #FFFFFF 0%, #FFFFFF 100%);/* Mozilla Firefox */ 
+background-image: -o-linear-gradient(top, #FFFFFF 0%, #FFFFFF 100%);/* Opera */ 
+background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #FFFFFF), color-stop(100, #FFFFFF));/* Webkit (Safari/Chrome 10) */ 
+background-image: -webkit-linear-gradient(top, #FFFFFF 0%, #FFFFFF 100%);/* Webkit (Chrome 11+) */ 
+background-image: linear-gradient(to bottom, #FFFFFF 0%, #FFFFFF 100%);/* W3C Markup */ 
+}
+
+/*  Content Container  */
+.r-tabs .r-tabs-panel {
+border-right: 1px solid #ccc;
+border-bottom: 1px solid #ccc;
+border-left: 1px solid #ccc;
+margin-bottom: 3px;
+}
+
+/*  Accordion */
+.r-tabs .r-tabs-accordion-title .r-tabs-anchor {
+display: block;
+padding: 10px;
+    background: hsla(34, 87%, 62%, 1);
+    background: -moz-linear-gradient(top, hsla(34, 87%, 62%, 1) 0%, hsla(24, 100%, 50%, 1) 100%);
+    background: -webkit-gradient(top top, right top, color-stop(0%, hsla(34, 87%, 62%, 1)), color-stop(100%, hsla(24, 100%, 50%, 1)));
+    background: -webkit-linear-gradient(top, hsla(34, 87%, 62%, 1) 0%, hsla(24, 100%, 50%, 1) 100%);
+    background: -o-linear-gradient(top, hsla(34, 87%, 62%, 1) 0%, hsla(24, 100%, 50%, 1) 100%);
+    background: -ms-linear-gradient(top, hsla(34, 87%, 62%, 1) 0%, hsla(24, 100%, 50%, 1) 100%);
+    background: linear-gradient(to bottom, hsla(34, 87%, 62%, 1) 0%, hsla(24, 100%, 50%, 1) 100%);
+color: #fff;
+font-weight: bold;
+text-decoration: none;
+margin-bottom: 3px;
+}
+.r-tabs .r-tabs-accordion-title.r-tabs-state-active .r-tabs-anchor {
+background-color: #FFFFFF;
+background-image: -ms-linear-gradient(top, #FFFFFF 0%, #FFFFFF 100%);/* IE10+ */ 
+background-image: -moz-linear-gradient(top, #FFFFFF 0%, #FFFFFF 100%);/* Mozilla Firefox */ 
+background-image: -o-linear-gradient(top, #FFFFFF 0%, #FFFFFF 100%);/* Opera */ 
+background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #FFFFFF), color-stop(100, #FFFFFF));/* Webkit (Safari/Chrome 10) */ 
+background-image: -webkit-linear-gradient(top, #FFFFFF 0%, #FFFFFF 100%);/* Webkit (Chrome 11+) */ 
+background-image: linear-gradient(to bottom, #FFFFFF 0%, #FFFFFF 100%);/* W3C Markup */ 
+color: hsla(24, 87%, 56%, 1);
+border-top: 1px solid #ccc;
+border-right: 1px solid #ccc;
+border-left: 1px solid #ccc;
+margin-bottom: 0;
+}
+
+
+
+/*!  *   *   *   [ RESPONSIVE TABS CSS  ]   *   *   *   */
+
+
+.r-tabs .r-tabs-nav {
+    margin: 0;
+    padding: 0;
+}
+
+.r-tabs .r-tabs-tab {
+    display: inline-block;
+    margin: 0;
+    list-style: none;
+}
+
+.r-tabs .r-tabs-panel {
+    padding: 15px;
+    display: none;
+}
+
+.r-tabs .r-tabs-accordion-title {
+    display: none;
+}
+
+.r-tabs .r-tabs-panel.r-tabs-state-active {
+    display: block;
+}
+
+/* Accordion responsive breakpoint */
+@media only screen and (max-width: 768px) {
+    .r-tabs .r-tabs-nav {
+        display: none;
+    }
+
+    .r-tabs .r-tabs-accordion-title {
+        display: block;
+    }
+}

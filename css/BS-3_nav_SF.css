@@ -1,0 +1,335 @@
+/* BS-3_nav_SF.css 070316
+bs-3_nav.css 070116 */
+/* THESE ARE PEGASUS BS NAV DECLARATIONS*/
+
+/* TEST NO-QUERIES (MOBILE) */
+/* line 167, ../sass/base/_helpers.scss */
+.navbar-nav {
+  width: 100%;
+  font-size: 1rem;
+  margin: 0 auto;
+  min-height: 1em;
+}
+
+/* line 174, ../sass/base/_helpers.scss */
+.navbar-default {
+  color: inherit;
+  background-color: inherit;
+  border: 0;
+  border-color: rgba(0, 0, 0, 0.01);
+}
+
+/* line 181, ../sass/base/_helpers.scss */
+.navbar-header {
+  width: 20%;
+  max-width:4em;
+  float:right;
+  margin:0;
+  clear:both;
+}
+
+/* line 186, ../sass/base/_helpers.scss */
+.navbar-collapse {
+  padding-right: 1em;
+  padding-left: 1em;
+  overflow-x: visible;
+  -webkit-overflow-scrolling: touch;
+  border-top: 0 solid transparent;
+}
+
+/* line 194, ../sass/base/_helpers.scss */
+.navbar-brand {
+  display: inline-block;
+  padding: 0;
+  font-size: 1em;
+  line-height: 1.2em;
+  margin: 0 auto;
+}
+
+/* line 202, ../sass/base/_helpers.scss */
+.navbar-nav > li {
+  font-weight: bold;
+  float: none;
+  text-align: center;
+  margin: auto;
+}
+
+/* line 208, ../sass/base/_helpers.scss */
+.navbar-default .navbar-nav > li > a,
+.navbar-nav > li > a {
+    line-height: 16px;
+    padding: 6px 7px;
+    color: hsla(210, 80%, 16%, 1);
+    font-size: 15px;
+    letter-spacing: 0.08em;
+    text-shadow: 1px 1px 2px hsla(21, 94%, 100%, 0.5);
+  margin: .125em auto;
+  -webkit-border-radius: 9px;
+  -moz-border-radius: 9px;
+  border-radius: 9px;
+  max-width: 98%;
+}
+
+/* line 219, ../sass/base/_helpers.scss */
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-nav > li > a:focus {
+    line-height: 16px;
+    padding: 6px 7px;
+    text-shadow: 1px 1px 3px hsla(21, 80%, 20%, 1);
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 0.08em;
+  margin: .125em auto;
+  text-decoration: none;
+  background: #F5B600; /* color here! */
+  background: -moz-linear-gradient(top, #F5D000, #F5B600);
+  background: -ms-linear-gradient(top, #F5D000, #F5B600);
+  background: -o-linear-gradient(top, #F5D000, #F5B600);
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, from(#F5D000), to(#F5B600));
+  /*OLD Webkit*/
+  background: -webkit-linear-gradient(top, #F5D000, #F5B600);
+  background: linear-gradient(to bottom, #F5D000, #F5B600);
+    cursor: pointer;
+  -o-transition: all .25s ease-in;
+  -moz-transition: all .25s ease-in;
+  -webkit-transition: all .25s ease-in;
+  transition: all .25s ease-in;
+}
+
+/* line 234, ../sass/base/_helpers.scss */
+.navbar-default .navbar-nav > li.active > a,
+.navbar-nav > li.active > a {
+    text-shadow: 1px 1px 3px hsla(21, 80%, 20%, 1);
+    color: #fff;
+  background: #F5B600;
+  background: -moz-linear-gradient(top, #F5D000, #F5B600);
+  background: -ms-linear-gradient(top, #F5D000, #F5B600);
+  background: -o-linear-gradient(top, #F5D000, #F5B600);
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, from(#F5D000), to(#F5B600));
+  /*OLD Webkit*/
+  background: -webkit-linear-gradient(top, #F5D000, #F5B600);
+  background: linear-gradient(to bottom, #F5D000, #F5B600);
+    cursor: pointer;
+} /* color here! */
+
+/* line 248, ../sass/base/_helpers.scss */
+.navbar-default .navbar-nav > li.active > a:hover,
+.navbar-nav > li.active > a:hover,
+.navbar-default .navbar-nav > li.active > a:focus,
+.navbar-nav > li.active > a:focus {
+    text-shadow: 1px 1px 3px hsla(21, 80%, 20%, 1);
+    color: #fff;
+  background: #F5B600;
+  background: -moz-linear-gradient(top, #F5D000, #F5B600);
+  background: -ms-linear-gradient(top, #F5D000, #F5B600);
+  background: -o-linear-gradient(top, #F5D000, #F5B600);
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, from(#F5D000), to(#F5B600));
+  /*OLD Webkit*/
+  background: -webkit-linear-gradient(top, #F5D000, #F5B600);
+  background: linear-gradient(to bottom, #F5D000, #F5B600);
+}
+/* line 297, ../sass/base/_helpers.scss */
+.navbar-nav > .dropdown .dropdown-menu {
+  top: auto;
+  left: auto;
+}
+
+/*UL.DROPDOWN DECLARATIONS:*/
+/* line 304, ../sass/base/_helpers.scss */
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0.5em;
+  z-index: 1000;
+  display: none;
+  float: left;
+  min-width: 12.5em;
+  padding: 0;
+  margin: .125em 0;
+  list-style: none;
+    color: #FFF;
+    font-size: 1rem;
+    text-align: left;
+    background: hsla(12, 96%, 47%, 1);
+    background: -moz-linear-gradient(top, hsla(12, 96%, 47%, 1) 0%, hsla(10, 100%, 39%, 1) 100%);
+    background: -webkit-gradient(top top, right top, color-stop(0%, hsla(12, 96%, 47%, 1)), color-stop(100%, hsla(10, 100%, 39%, 1)));
+    background: -webkit-linear-gradient(top, hsla(12, 96%, 47%, 1) 0%, hsla(10, 100%, 39%, 1) 100%);
+    background: -o-linear-gradient(top, hsla(12, 96%, 47%, 1) 0%, hsla(10, 100%, 39%, 1) 100%);
+    background: -ms-linear-gradient(top, hsla(12, 96%, 47%, 1) 0%, hsla(10, 100%, 39%, 1) 100%);
+    background: linear-gradient(to bottom, hsla(12, 96%, 47%, 1) 0%, hsla(10, 100%, 39%, 1) 100%);
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    -moz-border-radius: 7px;
+    -khtml-border-radius: 7px;
+    -webkit-border-radius: 7px;
+    border-radius: 7px;
+    -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+  -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+}
+
+/* Counter-acts stupid BS declaration */
+.navbar-nav > li > .dropdown-menu {
+  margin-top: 0;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+}
+
+/* line 289, ../sass/base/_helpers.scss */
+.dropdown-menu > li > a {
+  text-shadow: rgba(220, 220, 220, 0.3) 1px 1px 4px;
+}
+/* line 292, ../sass/base/_helpers.scss */
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+  text-shadow: #c8c8c8 1px 1px 4px;
+}
+
+.dropdown-menu li {
+    background: hsla(34, 87%, 62%, 1);
+    /* drop-down li color here!*/    
+    background: -moz-linear-gradient(top, hsla(34, 87%, 62%, 1) 0%, hsla(24, 100%, 50%, 1) 100%);
+    background: -webkit-gradient(top top, right top, color-stop(0%, hsla(34, 87%, 62%, 1)), color-stop(100%, hsla(24, 100%, 50%, 1)));
+    background: -webkit-linear-gradient(top, hsla(34, 87%, 62%, 1) 0%, hsla(24, 100%, 50%, 1) 100%);
+    background: -o-linear-gradient(top, hsla(34, 87%, 62%, 1) 0%, hsla(24, 100%, 50%, 1) 100%);
+    background: -ms-linear-gradient(top, hsla(34, 87%, 62%, 1) 0%, hsla(24, 100%, 50%, 1) 100%);
+    background: linear-gradient(to bottom, hsla(34, 87%, 62%, 1) 0%, hsla(24, 100%, 50%, 1) 100%);
+    border-bottom: 1px solid #Fb9233;
+    border-radius: 0;
+}
+.dropdown-menu li:hover {
+    background: hsla(56, 100%, 56%, 1);
+    /* drop-down li:hover color here!*/    
+    background: -moz-linear-gradient(top, hsla(56, 100%, 56%, 1) 0%, hsla(42, 86%, 56%, 1) 100%);
+    background: -webkit-gradient(top top, right top, color-stop(0%, hsla(56, 100%, 56%, 1)), color-stop(100%, hsla(42, 86%, 56%, 1)));
+    background: -webkit-linear-gradient(top, hsla(56, 100%, 56%, 1) 0%, hsla(42, 86%, 56%, 1) 100%);
+    background: -o-linear-gradient(top, hsla(56, 100%, 56%, 1) 0%, hsla(42, 86%, 56%, 1) 100%);
+    background: -ms-linear-gradient(top, hsla(56, 100%, 56%, 1) 0%, hsla(42, 86%, 56%, 1) 100%);
+    background: linear-gradient(to bottom, hsla(56, 100%, 56%, 1) 0%, hsla(42, 86%, 56%, 1) 100%);
+    border-bottom: 1px solid #Fb9233;
+    border-radius: 0;
+}
+
+/* Chrome & Safari */
+
+.dropdown-menu li:first-of-type {
+    -webkit-border-top-left-radius: 6px;
+    -moz-border-radius-top-left: 6px;
+    -webkit-border-top-right-radius: 6px;
+    -moz-border-radius-top-right: 6px;
+    border-radius: 6px 6px 0px 0px;
+}
+.dropdown-menu li:last-of-type {
+    -webkit-border-bottom-left-radius: 6px;
+    -moz-border-radius-bottom-left: 6px;
+    -webkit-border-bottom-right-radius: 6px;
+    -moz-border-radius-bottom-right: 6px;
+    border-radius: 0px 0px 6px 6px;
+    border: 0;
+}
+.dropdown-menu li:first-of-type:hover {
+    -webkit-border-top-left-radius: 6px;
+    -moz-border-radius-top-left: 6px;
+    -webkit-border-top-right-radius: 6px;
+    -moz-border-radius-top-right: 6px;
+    border-radius: 6px 6px 0px 0px;
+    border-bottom: 1px solid #Fb9233;
+}
+.dropdown-menu li:last-of-type:hover {
+    border-bottom: 0;
+    -webkit-border-bottom-left-radius: 5px;
+    -moz-border-radius-bottomleft: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+    -moz-border-radius-bottomright: 5px;
+    border-radius: 0px 0px 6px 6px;
+}
+.dropdown-menu li,
+.dropdown-menu li a,
+.dropdown-menu li a:hover {
+    text-shadow: 1px 2px 2px hsla(32, 94%, 22%, .9);
+}
+
+
+/* line 356, ../sass/base/_helpers.scss */
+.dropdown-menu > li > a {
+  display: block;
+  padding: .25em 1.25em;
+  clear: both;
+  font-weight: normal;
+  line-height: 1.428571429;
+  color: #FFF;
+  white-space: nowrap;
+  text-align: center;
+}
+
+/* line 367, ../sass/base/_helpers.scss */
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+  text-decoration: none;
+  color: #FFF;
+  background: transparent;
+}
+
+/* line 373, ../sass/base/_helpers.scss */
+.dropdown-menu > .active > a, .dropdown-menu > .active > a:hover, .dropdown-menu > .active > a:focus {
+  color: #696969;
+  text-decoration: none;
+  outline: 0;
+  background: rgba(255, 145, 145, 0.3);
+}
+
+/* Toggle Button */
+/* line 406, ../sass/base/_helpers.scss */
+.navbar-default .navbar-toggle {
+  border-color: #DDD;
+}
+
+/* line 409, ../sass/base/_helpers.scss */
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+  background-color: rgba(145, 145, 145, 0.1);
+}
+
+/* line 412, ../sass/base/_helpers.scss */
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #AAA;
+}
+
+/* line 416, ../sass/base/_helpers.scss */
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: rgba(145, 145, 145, 0.1);
+}
+
+/* line 421, ../sass/base/_helpers.scss */
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+  background: rgba(145, 145, 145, 0.1);
+  color: #696969;
+}
+
+/* END NAV (MOBILE) */
+@media only screen and (max-width: 767px) {
+  /* line 489, ../sass/states/_media_queries.scss */
+  .navbar-nav .open .dropdown-menu {
+  width:98%;
+  margin:0 auto;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  /* line 291, ../sass/states/_media_queries.scss */
+  .navbar-nav > li {
+    display: table-cell;
+    width: 1%;
+  }
+.navbar-default .navbar-nav > li > a,
+.navbar-nav > li > a {
+  width:80%;
+}
+}
+@media only screen and (max-width: 1000px) {
+  .navbar-collapse {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}

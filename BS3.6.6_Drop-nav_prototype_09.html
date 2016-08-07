@@ -119,18 +119,24 @@ In-HTML CSS are for testing only.<br>
 
 <div id="tab-2">
   <h2>Document Status and Features</h2>
-      <p>This iteration is housed in the Silver Fox folder and has the Silver Fox styles active, minus BS4 _cwebba_bootstrap_0503b2 and _sisiharmoni_bs04. The current CSS stylesheet name is style.css, 070316, and BS-3_nav_SF.css. BS03 Drop-down navigation styles from Pegasus are in BS-3_nav_SF.css.
-      </p>
-      <p>Responsive-tabs has been added to aid with testing sticky footer on iPhone.</p>
-      <p>The sticky-footer in this iteration is the Wrapper_Test_03.htm example house in the CWebba07 folder. Titled "Ultimate Sticky footer IE8+ (no hacks)", the prototype is based on <a href="http://codepen.io/paulobrien/pen/FKAxH">codepen.io/paulobrien/pen/FKAxH</a>.
-      </p>
-      <p>During testing it was found that the .topmast declaration, "display:table;", in style_sans_BS-0503b.css conflicted with the sticky-footer. Changing it to "diplay:table-cell;" fixed the problem. The style sheet style_sans_BS-0503b2.css has a .topmast declaration, "display:table-cell;". 
-      </p>
-      <p>It is possible that the flex-based sticky-footer option suffered from the same flaw.
-      </p>
-      <p>BS03 Drop-down navigation styles are modified to include SilverFox styles. The .navbar-header {} declaration is modified. New .in-head and .flex-vessel declarations were added to style_sans_BS-0503b2.css, 070116, and inner elemeents associated media-queries and declarations are modified. The backgroud image is contained in a wrapper ".in-head" div. A third wrapper is set to flexbox @768px/</p>
-      <p>BS3.3.6 has lots of style declarations on the structural classes. While sisiharmoni styles could be applied to BS4, there are many BS3 declarations that have to be overridden. Therefore sisiharmoni styles were applied to BS-3_nav_SF.css.
-      </p>
+<p>This iteration is housed in the Silver Fox folder and has the Silver Fox styles active, minus BS and _sisiharmoni_bs04. It uses BS 3.3.6 from CDN.</p>
+
+<p>The current CSS stylesheet name is style.css, 070316, and BS-3_nav_SF.css.</p>
+
+<p>BS03 Drop-down navigation styles from Pegasus are incorporated into BS-3_nav_SF.css.</p>
+
+<p>Responsive-tabs has been added to aid with testing sticky footer on iPhone.</p>
+
+<p>The sticky-footer in this iteration is from the Wrapper_Test_03.htm example.</p>
+
+<p>The prototype is based on <a href="http://codepen.io/paulobrien/pen/FKAxH">http://codepen.io/paulobrien/pen/FKAxH</a>, titled "Ultimate Sticky footer IE8+ (no hacks)".</p>
+
+<p>During testing it was found that the .topmast declaration, "display:table;", in style_sans_BS-0503b.css conflicted with the sticky-footer. Changing it to "diplay:table-cell;" fixed the problem. The style sheet style_sans_BS-0503b2.css has a .topmast declaration, "display:table-cell;".</p>
+
+<p>It is possible that the flex-based sticky-footer option, which was tested earlier, suffered from the same flaw.
+The .navbar-header {} declaration is modified. New .in-head and .flex-vessel declarations were added to style_sans_BS-0503b2.css, 070116, and inner elements associated media-queries and declarations are modified in style.css 070316. The background image is contained in a wrapper ".in-head" div. A third wrapper is set to flexbox @768px.</p>
+
+<p>BS3.3.6 has lots of style declarations on the structural classes. While sisiharmoni styles could be applied to BS4, there are many BS3 declarations that have to be overridden. Therefore sisiharmoni styles were applied to BS-3_nav_SF.css.</p>
       </div>
 
 <div id="tab-3">

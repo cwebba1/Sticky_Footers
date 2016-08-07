@@ -1,0 +1,249 @@
+/* bs-3_nav.css */
+/* THESE ARE PEGASUS BS NAV DECLARATIONS*/
+
+/* TEST NO-QUERIES (MOBILE) */
+/* line 167, ../sass/base/_helpers.scss */
+.navbar-nav {
+  width: 100%;
+  font-size: 1rem;
+  margin: 0 auto;
+  min-height: 1em;
+}
+
+/* line 174, ../sass/base/_helpers.scss */
+.navbar-default {
+  color: inherit;
+  background-color: inherit;
+  border: 0;
+  border-color: rgba(0, 0, 0, 0.01);
+}
+
+/* line 181, ../sass/base/_helpers.scss */
+.navbar-header {
+  width: 20%;
+  max-width:4em;
+  float:right;
+  margin:0;
+  clear:both;
+}
+
+/* line 186, ../sass/base/_helpers.scss */
+.navbar-collapse {
+  padding-right: 1em;
+  padding-left: 1em;
+  overflow-x: visible;
+  -webkit-overflow-scrolling: touch;
+  border-top: 0 solid transparent;
+}
+
+/* line 194, ../sass/base/_helpers.scss */
+.navbar-brand {
+  display: inline-block;
+  padding: 0;
+  font-size: 1em;
+  line-height: 1.2em;
+  margin: 0 auto;
+}
+
+/* line 202, ../sass/base/_helpers.scss */
+.navbar-nav > li {
+  float: none;
+  text-align: center;
+  margin: auto;
+}
+
+/* line 208, ../sass/base/_helpers.scss */
+.navbar-default .navbar-nav > li > a,
+.navbar-nav > li > a {
+  color: #000000;
+  padding: .25em .75em;
+  margin: .125em auto;
+  -webkit-border-radius: 9px;
+  -moz-border-radius: 9px;
+  border-radius: 9px;
+  max-width: 98%;
+}
+
+/* line 219, ../sass/base/_helpers.scss */
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-nav > li > a:focus {
+  color: #999999;
+  padding: .25em .75em;
+  margin: .125em auto;
+  text-decoration: none;
+  background: rgba(220, 220, 220, 0.3);
+  -o-transition: all .25s ease-in;
+  -moz-transition: all .25s ease-in;
+  -webkit-transition: all .25s ease-in;
+  transition: all .25s ease-in;
+}
+
+/* line 234, ../sass/base/_helpers.scss */
+.navbar-default .navbar-nav > li.active > a,
+.navbar-nav > li.active > a {
+  color: #696969;
+  background-color: #CFC9C9;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, from(rgba(207, 201, 201, 0.3)), to(rgba(182, 175, 175, 0.3)));
+  /*OLD Webkit*/
+  background-image: -webkit-linear-gradient(top, rgba(207, 201, 201, 0.3), rgba(182, 175, 175, 0.3));
+  background-image: -moz-linear-gradient(top, rgba(207, 201, 201, 0.3), rgba(182, 175, 175, 0.3));
+  background-image: -ms-linear-gradient(top, rgba(207, 201, 201, 0.3), rgba(182, 175, 175, 0.3));
+  background-image: -o-linear-gradient(top, rgba(207, 201, 201, 0.3), rgba(182, 175, 175, 0.3));
+  background: linear-gradient(rgba(207, 101, 201, 0.3), rgba(182, 175, 175, 0.3));
+}
+
+/* line 303, ../sass/base/_helpers.scss */
+/* line 248, ../sass/base/_helpers.scss */
+.navbar-default .navbar-nav > li.active > a:hover,
+.navbar-nav > li.active > a:hover,
+.navbar-default .navbar-nav > li.active > a:focus,
+.navbar-nav > li.active > a:focus {
+  color: #333333;
+  background-color: #CFC9C9;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, from(rgba(182, 175, 175, 0.3)), to(rgba(207, 201, 201, 0.3)));
+  /*OLD Webkit*/
+  background-image: -webkit-linear-gradient(top, rgba(182, 175, 175, 0.3), rgba(207, 201, 201, 0.3));
+  background-image: -moz-linear-gradient(top, rgba(182, 175, 175, 0.3), rgba(207, 201, 201, 0.3));
+  background-image: -ms-linear-gradient(top, rgba(182, 175, 175, 0.3), rgba(207, 201, 201, 0.3));
+  background-image: -o-linear-gradient(top, rgba(182, 175, 175, 0.3), rgba(207, 201, 201, 0.3));
+  background: linear-gradient(rgba(182, 175, 175, 0.3), rgba(207, 201, 201, 0.3));
+}
+/* line 289, ../sass/base/_helpers.scss */
+#wht-back .dropdown-menu > li > a {
+  text-shadow: rgba(220, 220, 220, 0.3) 1px 1px 4px;
+}
+
+/* line 292, ../sass/base/_helpers.scss */
+#wht-back .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+  text-shadow: #c8c8c8 1px 1px 4px;
+}
+
+/* line 297, ../sass/base/_helpers.scss */
+.navbar-nav > .dropdown .dropdown-menu {
+  top: auto;
+  left: auto;
+}
+
+/*UL.DROPDOWN DECLARATIONS:*/
+/* line 304, ../sass/base/_helpers.scss */
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: .5em;
+  z-index: 1000;
+  display: none;
+  float: left;
+  min-width: 12.5em;
+  padding: 0;
+  margin: .125em 0;
+  list-style: none;
+  font-size: .875em;
+  text-align: left;
+  background-color: #fff;
+  background: rgba(255, 255, 255, 0.8);
+  /*wht-back*/
+  border: 1px solid #ccc;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+  -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+  background-clip: padding-box;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+}
+
+/* rounded corners for first and last child */
+/* line 331, ../sass/base/_helpers.scss */
+.dropdown-menu li:first-child > a {
+  -webkit-border-top-left-radius: 6px;
+  -moz-border-radius-topleft: 6px;
+  -webkit-border-top-right-radius: 6px;
+  -moz-border-radius-topright: 6px;
+  border-radius: 6px 6px 0px 0px;
+  /*(top-left, top-right, bottom-right, bottom-left)*/
+  margin: 0 auto;
+}
+
+/* line 340, ../sass/base/_helpers.scss */
+.dropdown-menu li:last-child > a {
+  -webkit-border-bottom-left-radius: 6px;
+  -moz-border-radius-bottomleft: 6px;
+  -webkit-border-bottom-right-radius: 6px;
+  -moz-border-radius-bottomright: 6px;
+  border-radius: 0px 0px 6px 6px;
+  /*(top-left, top-right, bottom-right, bottom-left)*/
+  margin: 0 auto;
+}
+
+/* line 356, ../sass/base/_helpers.scss */
+.dropdown-menu > li > a {
+  display: block;
+  padding: .25em 1.25em;
+  clear: both;
+  font-weight: normal;
+  line-height: 1.428571429;
+  color: #333333;
+  white-space: nowrap;
+  text-align: center;
+}
+
+/* line 367, ../sass/base/_helpers.scss */
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+  text-decoration: none;
+  color: #696969;
+  background: rgba(145, 145, 145, 0.3);
+}
+
+/* line 373, ../sass/base/_helpers.scss */
+.dropdown-menu > .active > a, .dropdown-menu > .active > a:hover, .dropdown-menu > .active > a:focus {
+  color: #696969;
+  text-decoration: none;
+  outline: 0;
+  background: rgba(255, 145, 145, 0.3);
+}
+
+/* Toggle Button */
+/* line 406, ../sass/base/_helpers.scss */
+.navbar-default .navbar-toggle {
+  border-color: #DDD;
+}
+
+/* line 409, ../sass/base/_helpers.scss */
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+  background-color: rgba(145, 145, 145, 0.1);
+}
+
+/* line 412, ../sass/base/_helpers.scss */
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #AAA;
+}
+
+/* line 416, ../sass/base/_helpers.scss */
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: rgba(145, 145, 145, 0.1);
+}
+
+/* line 421, ../sass/base/_helpers.scss */
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+  background: rgba(145, 145, 145, 0.1);
+  color: #696969;
+}
+/* END NAV (MOBILE) */
+@media only screen and (min-width: 768px) {
+  /* line 291, ../sass/states/_media_queries.scss */
+  .navbar-nav > li {
+    display: table-cell;
+    width: 1%;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  /* line 489, ../sass/states/_media_queries.scss */
+  .navbar-collapse {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
